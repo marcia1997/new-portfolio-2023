@@ -7,15 +7,15 @@ const Intro = () => {
    
     <div className="i">
       <div className="i-left">
-        
+      <div className="orv"></div>
         <div className="i-left-wrapper">
+          <div className="text">
         <Helmet>
         <link
           href="https://fonts.googleapis.com/css?family=Modak&display=swap"
           rel="stylesheet"
         />
       </Helmet>
-          <h2 className="i-intro">Hi,there!</h2>
           <a href="" class="myText" id="color1"><h1>I'm Marcia</h1></a>
           <h2 className="i-dev">Full-Stack Developer</h2>
           <div className="i-title">
@@ -27,7 +27,7 @@ const Intro = () => {
               <div className="i-title-item">Travel</div>
             </div>
           </div>
-         
+         </div>
         </div>
         <svg
           width="75"
@@ -86,13 +86,8 @@ const Intro = () => {
           </g>
         </svg>
       </div>
+   
       <div className="i-right">
-      <div class="animation-wrapper">
-  <div class="particle particle-1"></div>
-  <div class="particle particle-2"></div>
-  <div class="particle particle-3"></div>
-  <div class="particle particle-4"></div>
-</div>
         <div className="i-bg">
           <img src={photo} alt=""className="i-img"/>
         </div>

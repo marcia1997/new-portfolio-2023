@@ -10,8 +10,6 @@ import Award8 from "../../img/award8.png";
 const About = () => {
   return (
     <div className="a">
-     
-
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
@@ -23,16 +21,17 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">About me</h1>
         <p className="a-sub">
         I love to design and create proyects,ideas and dreams.
             <br/>The most powerful thing is giving them life through my hands.
-        The coding world gave me a new way of thinking and how to create solutions.
         </p>
         <p className="a-desc">
-          Im a Front-end developer with Full-stack skills.
-          I enjoy using different tools to design and materialise.
-
+         I considere myself an self-thought person.<br></br>
+         I enjoy learning new things and challanging with.<br></br>
+         Learning differents aspects of coding and programming gave me an opportunity of discover myself.
+         During my journey I discover how amazing is the power of generate something amazing only with my computer.<br></br>
+         
         </p>
         <div className="container-1">
         <div className="a-award">

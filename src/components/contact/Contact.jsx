@@ -4,13 +4,16 @@ import LinkedIn from "../../img/linkedin.png";
 import Github from "../../img/git.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { ThemeContext } from "../../context";
+import anime from 'animejs';
+import React, { useEffect } from 'react';
+
+
+
+
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false)
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,8 +36,10 @@ const Contact = () => {
   };
 
   return (
+    
     <div className="c">
-      <div className="c-bg"></div>
+      <div className="c-bg">
+      </div>
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Let's magic!</h1>
@@ -62,10 +67,10 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <input  type="text" placeholder="Name" name="user_name" />
+            <input  type="text" placeholder="Subject" name="user_subject" />
+            <input  type="text" placeholder="Email" name="user_email" />
+            <textarea  rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Your message had been sent.Thank you:)"}
           </form>
@@ -73,6 +78,7 @@ const Contact = () => {
       </div>
     </div>
   );
+ 
 };
 
 export default Contact;

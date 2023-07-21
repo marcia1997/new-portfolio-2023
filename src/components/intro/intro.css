@@ -1,7 +1,6 @@
 body{background-color: #33007a;
      color: #fff;
      scroll-behavior: smooth;
-     margin: 0;
     
 }
 
@@ -9,6 +8,7 @@ body{background-color: #33007a;
   display: flex;
   height: 135vh;
   width:100%;
+  margin: 0;
 }
 
   
@@ -44,7 +44,7 @@ body{background-color: #33007a;
 }
 
 .i-left-wrapper {
-  padding: 50px;
+  padding: 2px;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -58,8 +58,8 @@ body{background-color: #33007a;
 }
 .text{
  position: absolute;
- top: 85%;
- right: 85%;
+ top: 270px;
+ right: 50px;
  transform: translate(-30%, -40%);
 }
 
@@ -73,15 +73,17 @@ body{background-color: #33007a;
 }
 
 .i-title {
-  height: 50px;
+  height: 70px;
   overflow: hidden;
+ position: relative;
+ top:350px;
+ padding: 5px;
 }
 
 .i-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
-  position:relative;
-
+  background-color: transparent;
 }
 
 @keyframes move {
@@ -100,16 +102,19 @@ body{background-color: #33007a;
 }
 
 .i-title-item {
-  height: 50px;
-  font-size: 20px;
+  height: 100px;
+  font-size: 80px;
   font-weight: bold;
   color: #9341e0;
   display: flex;
   align-items: center;
+  left:280px;
+  top:-400px;
 }
 
 .i-dev{
   font-size:20px;
+
   
 }
 
@@ -154,7 +159,6 @@ body{background-color: #33007a;
     animation-timing-function: linear;
   animation-name: fluid;
   background-size: 500%;
-  color: black;
 }
 #color2 h1{
     background-size: 400%;
@@ -191,6 +195,7 @@ body{background-color: #33007a;
     justify-content: center;
     text-align: center;
     height: 70%;
+
     
   }
 
@@ -212,24 +217,32 @@ body{background-color: #33007a;
     display:none;
   }
   .orv {
-    width: 80px;
-    height: 80px;
-    padding: 100px;
+    width: 300px;
+    height:300px;
+    padding:0px;
   }
   .text{
     position:relative;
-    top: 5%;
+    top: 0%;
     left: 30%;
 
- 
    }
    .myText h1{
-    font-size: 60px;
+    font-size: 70px;
   }
   .i-dev{
-    font-size:12px;
+    font-size:20px;
     
   }
 
+  .i-title-item {
+    height: 55px;
+    font-size: 40px;
+    left:10px;
   
+  }
+  
+  .i-title{
+    margin-top:-170px;
+  }
 }

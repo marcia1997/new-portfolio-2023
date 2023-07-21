@@ -16,17 +16,9 @@ const Intro = () => {
           rel="stylesheet"
         />
       </Helmet>
-          <a href="" class="myText" id="color1"><h1>I'm Marcia</h1></a>
+          <a href="" class="myText" id="color1"><h1>Marcia Vazquez</h1></a>
           <h2 className="i-dev">Full-Stack Developer</h2>
-          <div className="i-title">
-            <div className="i-title-wrapper">
-              <div className="i-title-item">Creativity</div>
-              <div className="i-title-item">Design</div>
-              <div className="i-title-item">Photography</div>
-              <div className="i-title-item">Books</div>
-              <div className="i-title-item">Travel</div>
-            </div>
-          </div>
+         
          </div>
         </div>
         <svg
@@ -88,10 +80,19 @@ const Intro = () => {
       </div>
    
       <div className="i-right">
+    
         <div className="i-bg">
           <img src={photo} alt=""className="i-img"/>
         </div>
-        
+       < div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Creativity</div>
+              <div className="i-title-item">Design</div>
+              <div className="i-title-item">Photography</div>
+              <div className="i-title-item">Books</div>
+              <div className="i-title-item">Travel</div>
+            </div>
+          </div>
       </div>
     </div>
   );

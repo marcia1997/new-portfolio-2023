@@ -407,7 +407,7 @@ button {
   }
 
   .c-title {
-    font-size: 30px;
+    font-size: 50px;
   }
 
  .c-bg{
@@ -439,5 +439,8 @@ button {
     margin-top: 10px;
   }
 
+ .planet-container{
+  margin-bottom: -450px;
+ }
   
 }

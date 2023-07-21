@@ -7,7 +7,6 @@ import { Helmet } from "react-helmet";
 const ProductList = () => {
   return (
     <div className="pl">
-      <div class="gradient"></div>
       <div className="pl-texts">
         <h2 className="pl-title">
         <Helmet>

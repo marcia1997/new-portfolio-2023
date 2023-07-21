@@ -41,7 +41,8 @@
 
 @media screen and (max-width: 480px) {
   .p {
-    width: 40%;
-    height: 20vh;
+    width: 75%;
+    height: 27vh;
+   margin-left: 45px;
   }
 }
